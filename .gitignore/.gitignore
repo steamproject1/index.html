@@ -1,1 +1,69 @@
-test
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Assassins Creed Unity</title>
+    
+    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <META HTTP-EQUIV="Expires" CONTENT="-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script>
+    function disableAutoPlay()
+    {
+      var myvid = document.getElementById("dogVideo");
+      myvid.autoplay = false;
+      myvid.load();
+    }
+    </script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body onload=disableAutoPlay();>
+    <div id="wrapper">
+      <header>
+        <a href="index.html"><img src="https://i.ytimg.com/vi/SrPJ0j9NdVk/maxresdefault.jpg"></a>
+     </header>
+      <nav>
+        <ul>
+          <li><a href="#">What it is about</a></li>
+          <li><a href="#">Main character</a></li>
+          <li><a href="#">Why I Like The Game</a></li>
+          <li><a href="#">Cool Pictures</a></li>
+        </ul>
+      </nav>
+
+      <div class="clear"> </div>
+        <div  id="social">
+          <ul>
+            <li><a href="http://www.facebook.com" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/facebook.png"/></a></li>
+            <li><a href="http://www.twitter.com" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/twitter.png"/></a></li>
+            <li><a href="http://www.youtube.com" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/youtube.png"/></a></li>
+            <li><a href="http://www.plus.google.com" target="_blank"><img src="http://www.w3newbie.com/wp-content/uploads/google_plus.png"/></a></li>
+          </ul>
+        </div>
+      
+      <div class="clear"></div>
+      <section class="left-col">
+        <h3>What It Is About</h3>
+        <img src="http://beagamecharacter.com/wp-content/uploads/2013/02/Master-Chief-in-Halo-854x960.jpg">
+        <p>Master Chief is 7 feet tall and is almost industructable he has very thick armor has no mercy and always does his job.</p>
+      </section>
+      <aside class="sidebar">
+      <h3>Main Character</h3>
+        <img src="http://halofollower.com/wp-content/uploads/2015/03/800px-Spartan_candidate_John-117.png">
+        <p>Master Chief is a very boss guy that when he was six he was tacken buy a goverment facility that put these chemical type thing that made it so his bones are nearly industructible he is super strong and is 7 feet tall.</p>
+      </aside>
+      <aside class="sidebar">
+      <h3>why I Like The Game</h3>
+        <img src="http://i2.wp.com/www.themindofgame.com/wp-content/uploads/2012/12/Halo-4-prekonalo-Black-Ops-2-image-916.jpg">
+        <p>Master Chiefs strategys are ussaly charge into battle with no plan and compleat the mission</p>
+      </aside>
+      <section class="left-col">
+        <h3>Cool Pictures</h3>
+        <img src="http://www.blogcdn.com/www.joystiq.com/media/2012/02/master-chief.jpg">
+        <p>Master Chiefs armor is made of titaniam and a type of material that is flechible plus 50percent stronger than titaniam and the suit is half a ton and he jumps like he is on the moon.</p>
+      </section>
+      <div class="clear"></div>
+      <footer>
+
+  
